@@ -5,7 +5,7 @@ import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/project-5.jpg";
 
 import project01 from "../assets/projects/project-6.jpg";
-import project00 from "../assets/projects/project-7.jpg";
+import project00 from "../assets/projects/project-7.png";
 import project03 from "../assets/projects/project-9.jpg";
 
 export const EXPERIENCES = [
