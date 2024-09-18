@@ -8,6 +8,14 @@ import project01 from "../assets/projects/project-6.jpg";
 import project00 from "../assets/projects/project-7.png";
 import project03 from "../assets/projects/project-9.jpg";
 
+import project001 from "../assets/projects/project-10.png";
+import project002 from "../assets/projects/project-11.png";
+import project003 from "../assets/projects/project-12.png";
+
+import project004 from "../assets/projects/project-13.png";
+import project005 from "../assets/projects/project-14.jpeg";
+
+
 export const EXPERIENCES = [
   {
     year: "March 2024 - June 2024",
@@ -34,7 +42,37 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    "title": "Izandla Pay Website",
+    "title": "Edify Me Education - Android App",
+    "image": project005,
+    "description": "I developed Edify Me, an educational app that provides personalized learning experiences. It features interactive lessons, and quizzes, designed to help students of all levels achieve their educational goals with a user-friendly interface.",
+    "technologies": ["Java", "Kotlin", "Android Studio", "Gemini API"]
+  },
+  {
+    "title": "Rhys Projects (PTY) LTD.",
+    "image": project004,
+    "description": "I am proud to share that I’ve had the privilege of designing and developing a new website for Rhys Projects (PTY) LTD, a leading company specializing in plumbing, building, and civil construction. This project highlights their dedication to excellence and their commitment to delivering top-notch services across various infrastructure sectors.",
+    "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap"]
+  },
+  {
+    "title": "Hand Gesture Recognition",
+    "image": project003,
+    "description": "A Python-based hand recognition system using OpenCV and Mediapipe for real-time hand gesture detection. It efficiently tracks hand movements, making it suitable for gesture-based controls and interactive applications.",
+    "technologies": ["Python", "OpenCV", "MediaPipe"]
+  },
+  {
+    "title": "Buffalo Cyber Security",
+    "image": project002,
+    "description": "I created the official website for Buffalo Cyber Security, highlighting their expertise in cloud security, mobile app protection, and web security solutions. The website provides clear insights into how they safeguard businesses by securing cloud environments, developing secure mobile applications, and protecting web platforms from cyber threats.",
+    "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap"]
+  },
+  {
+    "title": "DUOBIT TECHNOLOGIES (PTY) LTD.",
+    "image": project001,
+    "description": "A comprehensive website I built for DUOBIT TECHNOLOGIES PTY LTD, showcasing their innovative technology solutions and services. The site features a sleek, modern design with intuitive navigation, highlighting the company's expertise in delivering cutting-edge tech solutions and their commitment to excellence in the technology sector.",
+    "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap"]
+  },
+  {
+    "title": "Izandla Pay",
     "image": project00,
     "description": "A responsive and user-friendly website designed for Izandla Pay, a digital payment platform. The website provides a seamless experience for users to manage payments, view transactions, and access financial services.",
     "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap"]
@@ -48,24 +86,24 @@ export const PROJECTS = [
   },
   
   {
-    "title": "Njoboyinye Pty Ltd Website",
+    "title": "Njoboyinye (PTY) LTD.",
     "image": project03,
-    "description": "A professional website designed and developed for Njoboyinye Pty Ltd, showcasing the company's services in web and mobile application development. The site features an elegant design, smooth navigation, and highlights the company's portfolio and expertise.",
-    "technologies": ["HTML", "CSS", "JavaScript", "WordPress"]
+    "description": "A professional website designed and developed for Njoboyinye PTY LTD, showcasing the company's expertise in creating bespoke clothing for weddings, matric dances, and other special events. The site features an elegant design, smooth navigation, and highlights the brand's portfolio and craftsmanship in high-quality, custom garments.",
+    "technologies": ["HTML", "CSS", "JavaScript"]
 },
 
   {
-    "title": "Southside FM Radio App",
+    "title": "Southside FM Radio - Android App",
     "image": project1,
     "description": "A comprehensive radio streaming application developed during an internship at Netstream Integrated Solutions. The app provides live radio streaming, station listing, weather, and latest news updates.",
-    "technologies": ["Java", "Kotlin", "News API", "WeatherAPI"]
+    "technologies": ["Java", "Kotlin", "Android Studio", "News API", "WeatherAPI"]
   },
   
   {
-    "title": "HealthCare App",
+    "title": "HealthCare App - Android App",
     "image": project2,
      "description": "A healthcare application with integrated features such as a News API for real-time healthcare updates, Google Maps for user location tracking, and an intelligent chatbot designed to assist users with customer service inquiries and provide information.",
-    "technologies": ["Java", "Kotlin", "GerminiAPI", "Firebase" , "Google Maps API"]
+    "technologies": ["Java", "Kotlin", "Gemini API", "Firebase" , "Google Maps API"]
   },
 
   {
@@ -77,7 +115,7 @@ export const PROJECTS = [
   },
 
   {
-    title: "Birdlife App",
+    title: "Birdlife - Android App",
     image: project4,
     description:
       "This Android Studio app is designed for bird enthusiasts and ornithologists to observe and document bird sightings. It uses MapBox for mapping features and integrates with the eBird API 2.0 to provide up-to-date information about bird species and sightings.",
@@ -94,7 +132,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "B48 Nkonkoni Road, Inanda Newtown, Durban 4310, South Africa.",
+  address: "Durban 4310, South Africa.",
   phoneNo: "+27 67 655 5315",
   email: "khumalophilani580@gmail.com",
 };
