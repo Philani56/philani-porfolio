@@ -15,6 +15,12 @@ import project003 from "../assets/projects/project-12.png";
 import project004 from "../assets/projects/project-13.png";
 import project005 from "../assets/projects/project-14.jpeg";
 
+import project006 from "../assets/projects/200.png";
+import project007 from "../assets/projects/300.png";
+import project008 from "../assets/projects/project-100.png";
+
+import project009 from "../assets/projects/weather.jpg";
+import project010 from "../assets/projects/books.jpg";
 
 export const EXPERIENCES = [
   {
@@ -42,11 +48,35 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    "title": "Edify Me Education - Android App",
-    "image": project005,
-    "description": "I developed Edify Me, an educational app that provides personalized learning experiences. It features interactive lessons, and quizzes, designed to help students of all levels achieve their educational goals with a user-friendly interface.",
-    "technologies": ["Java", "Kotlin", "Android Studio", "Gemini API"]
+    "title": "GoalFit E-Commerce",
+    "image": project008, 
+    "description": "Developed an e-commerce platform specifically for soccer T-shirts, where users can browse through various designs, select sizes, and purchase their favorite soccer apparel.",
+    "technologies": ["JavaScript", "React", "Node.js"]
   },
+  {
+    "title": "City Weather Finder",
+    "image": project009,
+    "description": "Built a weather application where users can search for a city and retrieve real-time weather information. The app integrates with the OpenWeather API to display current temperature, humidity, wind speed, and weather conditions, providing an easy-to-use interface for tracking weather across the globe.",
+    "technologies": ["JavaScript", "React", "OpenWeather API", "CSS"]
+  },   
+  {
+    "title": "BookStore Application",
+    "image": project010, 
+    "description": "A fully functional Bookstore App built with the MERN stack (MongoDB, Express.js, React, and Node.js). This project allows users to browse, add, edit, and delete books, all within a clean and user-friendly interface.",
+    "technologies": ["MongoDB", "Express.js", "React", "Node.js"]
+  },
+  {
+    "title": "Moon Studio (Favorite Movie Cart)",
+    "image": project007,  
+    "description": "I developed Moon Studio, an application that allows users to create and manage a cart of their favorite movies. Users can browse through a vast library, add movies to their cart, and keep track of their favorites, providing a seamless and enjoyable experience.",
+    "technologies": ["JavaScript", "React", "Node.js"]
+  },  
+  {
+    "title": "Siyakhula Financial Bank System (WPF)",
+    "image": project006, 
+    "description": "I developed the Siyakhula Financial Bank System using WPF. The application offers a comprehensive banking experience, including features for account management, transaction processing, and customer support, all designed to be user-friendly and efficient.",
+    "technologies": ["C#", ".NET", "WPF", "SQL Server"]
+  },  
   {
     "title": "Rhys Projects (PTY) LTD.",
     "image": project004,
@@ -84,13 +114,20 @@ export const PROJECTS = [
     "description": "A Python-based face detection system that uses computer vision techniques to identify and locate human faces in images and video streams. The project demonstrates the application of machine learning models for real-time face recognition.",
     "technologies": ["Python", "OpenCV", "TensorFlow", "Dlib"]
   },
-  
+
   {
     "title": "Njoboyinye (PTY) LTD.",
     "image": project03,
     "description": "A professional website designed and developed for Njoboyinye PTY LTD, showcasing the company's expertise in creating bespoke clothing for weddings, matric dances, and other special events. The site features an elegant design, smooth navigation, and highlights the brand's portfolio and craftsmanship in high-quality, custom garments.",
     "technologies": ["HTML", "CSS", "JavaScript"]
-},
+  },
+  
+  {
+    "title": "Edify Me Education - Android App",
+    "image": project005,
+    "description": "I developed Edify Me, an educational app that provides personalized learning experiences. It features interactive lessons, and quizzes, designed to help students of all levels achieve their educational goals with a user-friendly interface.",
+    "technologies": ["Java", "Kotlin", "Android Studio", "Gemini API"]
+  },
 
   {
     "title": "Southside FM Radio - Android App",
@@ -100,20 +137,11 @@ export const PROJECTS = [
   },
   
   {
-    "title": "HealthCare App - Android App",
+    "title": "HealthCare - Android App",
     "image": project2,
      "description": "A healthcare application with integrated features such as a News API for real-time healthcare updates, Google Maps for user location tracking, and an intelligent chatbot designed to assist users with customer service inquiries and provide information.",
     "technologies": ["Java", "Kotlin", "Gemini API", "Firebase" , "Google Maps API"]
   },
-
-  {
-    title: "DUT Ticket System",
-    image: project3,
-    description:
-      "The DUT Ticket System was developed as part of a Work-Integrated Learning (WIL) academic module. This collaborative project created an efficient platform for managing student queries at Durban University of Technology (DUT), streamlining academic and administrative inquiries for timely and effective responses.",
-    technologies: ["Microsoft Azure", "ASP.NET", "SQL", ".NET Framework", "CRUD", "GitHub"],
-  },
-
   {
     title: "Birdlife - Android App",
     image: project4,
@@ -121,7 +149,13 @@ export const PROJECTS = [
       "This Android Studio app is designed for bird enthusiasts and ornithologists to observe and document bird sightings. It uses MapBox for mapping features and integrates with the eBird API 2.0 to provide up-to-date information about bird species and sightings.",
     technologies: ["Java", "Kotlin", "Firebase Authentication", "Firebase Realtime", "Mapbox API"],
   },
-
+  {
+    title: "DUT Ticket System",
+    image: project3,
+    description:
+      "The DUT Ticket System was developed as part of a Work-Integrated Learning (WIL) academic module. This collaborative project created an efficient platform for managing student queries at Durban University of Technology (DUT), streamlining academic and administrative inquiries for timely and effective responses.",
+    technologies: ["Microsoft Azure", "ASP.NET", "SQL", ".NET Framework", "CRUD", "GitHub"],
+  },
   {
     title: "Dewey Decimal System",
     image: project5,
